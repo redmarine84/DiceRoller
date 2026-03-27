@@ -335,8 +335,7 @@ Partial Class DiceRoll
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Black
-        Me.ClientSize = New System.Drawing.Size(849, 499)
-        Me.ControlBox = False
+        Me.ClientSize = New System.Drawing.Size(844, 497)
         Me.Controls.Add(Me.rlabDice)
         Me.Controls.Add(Me.rollDisadvantageBtn)
         Me.Controls.Add(Me.rollAdvantageBtn)
@@ -354,14 +353,14 @@ Partial Class DiceRoll
         Me.Controls.Add(Me.roll1d6Btn)
         Me.Controls.Add(Me.roll1d4Btn)
         Me.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "DiceRoll"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "DnD Dice Roll"
-        Me.TopMost = True
         CType(Me.roll1d4Btn, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.roll1d6Btn, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.roll1d8Btn, System.ComponentModel.ISupportInitialize).EndInit()

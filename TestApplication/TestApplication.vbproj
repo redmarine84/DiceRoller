@@ -14,10 +14,10 @@
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
-    <IsWebBootstrapper>true</IsWebBootstrapper>
-    <PublishUrl>\\amsazeus2m02t.americas.interfaceinc.com\ifswptnts1-stg\Common\MESr\Stored Procedures\Tim_DEV\Dungeon Dice Roller\</PublishUrl>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>\\amsazeus2m02t.americas.interfaceinc.com\ifswptnts1-stg\Common\MESr\Stored Procedures\Tim_DEV\Dungeon Master\</PublishUrl>
     <Install>true</Install>
-    <InstallFrom>Web</InstallFrom>
+    <InstallFrom>Unc</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
     <UpdateMode>Background</UpdateMode>
     <UpdateInterval>7</UpdateInterval>
@@ -25,11 +25,11 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>true</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>https://github.com/redmarine84/DiceRoller/blob/master/TestApplication/publish/</InstallUrl>
+    <InstallUrl>\\amsazeus2m02t.americas.interfaceinc.com\ifswptnts1-stg\Common\MESr\Stored Procedures\Tim_DEV\Dungeon Master\</InstallUrl>
     <ProductName>Dungeon Master Dice Roll</ProductName>
     <PublisherName>Tim McIntyre</PublisherName>
     <MinimumRequiredVersion>1.0.0.8</MinimumRequiredVersion>
-    <ApplicationRevision>22</ApplicationRevision>
+    <ApplicationRevision>23</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
