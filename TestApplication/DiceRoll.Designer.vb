@@ -335,7 +335,7 @@ Partial Class DiceRoll
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Black
-        Me.ClientSize = New System.Drawing.Size(856, 533)
+        Me.ClientSize = New System.Drawing.Size(849, 499)
         Me.ControlBox = False
         Me.Controls.Add(Me.rlabDice)
         Me.Controls.Add(Me.rollDisadvantageBtn)

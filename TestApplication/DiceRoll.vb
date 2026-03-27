@@ -18,22 +18,22 @@
     End Sub
 
     Private CoinToss As String() = {"Heads", "Tails"}
-
+    'For 1D4 Rolls
     Private d4rolls As String() = {"2", "4", "1", "3"}
     Private d4rolls1 As String() = {"3", "1", "4", "2"}
-
+    'For 1D6 Rolls
     Private d6rolls As String() = {"2", "5", "1", "3", "6", "4"}
     Private d6rolls1 As String() = {"3", "6", "2", "4", "1", "5"}
-
+    'For 1D8 Rolls
     Private d8rolls As String() = {"8", "2", "5", "3", "4", "1", "7", "6"}
     Private d8rolls1 As String() = {"2", "7", "6", "8", "4", "3", "1", "5"}
-
+    'For 1D10 Rolls
     Private d10rolls As String() = {"6", "2", "5", "8", "10", "4", "1", "3", "9", "7"}
     Private d10rolls1 As String() = {"2", "4", "1", "3", "6", "9", "10", "7", "8", "5"}
-
+    'For Percentile Rolls
     Private percentage As String() = {"5", "7", "6", "1", "8", "10", "2", "3", "4", "9"}
     Private percentage1 As String() = {"9", "10", "7", "4", "2", "6", "3", "1", "5", "8"}
-
+    'For 1D20 and Advantage/Disadvantage Rolls
     Private d20rolls As String() = {"2", "5", "1", "8", "10", "15", "20", "16", "3", "4", "9", "19", "17", "12", "11", "7", "13", "6", "14", "18"}
     Private d20rolls1 As String() = {"4", "10", "15", "18", "1", "5", "2", "6", "13", "20", "19", "9", "7", "3", "12", "11", "17", "16", "14", "8"}
 
