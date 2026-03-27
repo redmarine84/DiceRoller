@@ -194,6 +194,7 @@
   <ItemGroup>
     <Content Include="DungeonMaster.ico" />
     <Content Include="dungeon_master_dice_roller_icon.ico" />
+    <None Include="Resources\NewDungeonMaster.png" />
     <None Include="Resources\ChatGPT Image Mar 26, 2026, 12_02_55 PM.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

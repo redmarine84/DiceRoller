@@ -162,7 +162,7 @@ Partial Class DiceRoll
         'rpanLogo
         '
         Me.rpanLogo.BackColor = System.Drawing.Color.Transparent
-        Me.rpanLogo.BackgroundImage = CType(resources.GetObject("rpanLogo.BackgroundImage"), System.Drawing.Image)
+        Me.rpanLogo.BackgroundImage = Global.TestApplication.My.Resources.Resources.NewDungeonMaster
         Me.rpanLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.rpanLogo.ForeColor = System.Drawing.Color.Transparent
         Me.rpanLogo.Location = New System.Drawing.Point(333, 12)
@@ -288,9 +288,18 @@ Partial Class DiceRoll
         '
         'PercentileImageList
         '
-        Me.PercentileImageList.ColorDepth = System.Windows.Forms.ColorDepth.Depth32Bit
-        Me.PercentileImageList.ImageSize = New System.Drawing.Size(128, 128)
+        Me.PercentileImageList.ImageStream = CType(resources.GetObject("PercentileImageList.ImageStream"), System.Windows.Forms.ImageListStreamer)
         Me.PercentileImageList.TransparentColor = System.Drawing.Color.Black
+        Me.PercentileImageList.Images.SetKeyName(0, "Percentile10.png")
+        Me.PercentileImageList.Images.SetKeyName(1, "Percentile20.png")
+        Me.PercentileImageList.Images.SetKeyName(2, "Percentile30.png")
+        Me.PercentileImageList.Images.SetKeyName(3, "Percentile40.png")
+        Me.PercentileImageList.Images.SetKeyName(4, "Percentile50.png")
+        Me.PercentileImageList.Images.SetKeyName(5, "Percentile60.png")
+        Me.PercentileImageList.Images.SetKeyName(6, "Percentile70.png")
+        Me.PercentileImageList.Images.SetKeyName(7, "Percentile80.png")
+        Me.PercentileImageList.Images.SetKeyName(8, "Percentile90.png")
+        Me.PercentileImageList.Images.SetKeyName(9, "Percentile100.png")
         '
         'd20ImageList
         '

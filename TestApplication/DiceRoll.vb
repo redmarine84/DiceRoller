@@ -423,16 +423,16 @@
                 End Select
             Case "Percentile"
                 Select Case value
-                    Case 1 : Return d10ImageList.Images.Item(0)
-                    Case 2 : Return d10ImageList.Images.Item(1)
-                    Case 3 : Return d10ImageList.Images.Item(2)
-                    Case 4 : Return d10ImageList.Images.Item(3)
-                    Case 5 : Return d10ImageList.Images.Item(4)
-                    Case 6 : Return d10ImageList.Images.Item(5)
-                    Case 7 : Return d10ImageList.Images.Item(6)
-                    Case 8 : Return d10ImageList.Images.Item(7)
-                    Case 9 : Return d10ImageList.Images.Item(8)
-                    Case 10 : Return d10ImageList.Images.Item(9)
+                    Case 1 : Return PercentileImageList.Images.Item(0)
+                    Case 2 : Return PercentileImageList.Images.Item(1)
+                    Case 3 : Return PercentileImageList.Images.Item(2)
+                    Case 4 : Return PercentileImageList.Images.Item(3)
+                    Case 5 : Return PercentileImageList.Images.Item(4)
+                    Case 6 : Return PercentileImageList.Images.Item(5)
+                    Case 7 : Return PercentileImageList.Images.Item(6)
+                    Case 8 : Return PercentileImageList.Images.Item(7)
+                    Case 9 : Return PercentileImageList.Images.Item(8)
+                    Case 10 : Return PercentileImageList.Images.Item(9)
                 End Select
             Case "D20"
                 Select Case value
