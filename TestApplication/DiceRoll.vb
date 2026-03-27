@@ -242,6 +242,7 @@
             rtxtRoll.Text = (rtxtRoll.Text * 10).ToString + "%"
         End If
         i = 0
+        ReDim DiceRolls(20)
         rtxtDiceRolled.Text = i
         rollTicks = 0
     End Sub
