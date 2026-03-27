@@ -14,10 +14,10 @@
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>\\amsazeus2m02t.americas.interfaceinc.com\ifswptnts1-stg\Common\MESr\Stored Procedures\Tim_DEV\Dungeon Master\</PublishUrl>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>\\amsazeus2m02t.americas.interfaceinc.com\ifswptnts1-stg\Common\MESr\Stored Procedures\Tim_DEV\Dungeon Dice Roller\</PublishUrl>
     <Install>true</Install>
-    <InstallFrom>Unc</InstallFrom>
+    <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
     <UpdateMode>Background</UpdateMode>
     <UpdateInterval>7</UpdateInterval>
@@ -25,11 +25,11 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>true</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>\\amsazeus2m02t.americas.interfaceinc.com\ifswptnts1-stg\Common\MESr\Stored Procedures\Tim_DEV\Dungeon Master\</InstallUrl>
+    <InstallUrl>https://github.com/redmarine84/DiceRoller/blob/master/TestApplication/publish/</InstallUrl>
     <ProductName>Dungeon Master Dice Roll</ProductName>
     <PublisherName>Tim McIntyre</PublisherName>
     <MinimumRequiredVersion>1.0.0.8</MinimumRequiredVersion>
-    <ApplicationRevision>18</ApplicationRevision>
+    <ApplicationRevision>22</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -73,10 +73,10 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>A586B763D10DAB333209C0C912B3080D5143BEA9</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>1F78C952B256C6CEA45EAC63E2A609E98D130875</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>TestApplication_3_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>TestApplication_4_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -130,6 +130,7 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
     <Compile Include="DiceRoll.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -180,6 +181,7 @@
     <None Include="TestApplication_1_TemporaryKey.pfx" />
     <None Include="TestApplication_2_TemporaryKey.pfx" />
     <None Include="TestApplication_3_TemporaryKey.pfx" />
+    <None Include="TestApplication_4_TemporaryKey.pfx" />
     <None Include="TestApplication_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
